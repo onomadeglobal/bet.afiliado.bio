@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #120C16; /* Substitua pelo código da cor de fundo */
+}
+
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #120C16; /* Substitua pelo código da cor de fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#loading-screen img {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+}
+
+#content {
+    display: none; /* Esconda o conteúdo inicialmente */
+}
