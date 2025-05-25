@@ -63,6 +63,18 @@
       a {
       text-decoration: none;
       }
+	    .breadcrumb {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.breadcrumb li + li::before {
+  content: "›";
+  padding: 0 8px;
+  color: #555;
+}
     </style>
 
 
